@@ -1,5 +1,9 @@
 /* CSS for the game */
 
+/*Audio*/
+button #mute {
+}
+
 /*Main page*/
 body, html {
 	background-color: #fcc6e6;

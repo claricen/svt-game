@@ -1,3 +1,16 @@
+document.getElementById('mute').addEventListener('click', function (e)
+{
+    e = e || window.event;
+    audio.muted = !audio.muted;
+    e.preventDefault();
+}, false);
+
+function toggleSound() {
+	var audio = document.getElementById('background_audio');
+    audio.muted = !audio.muted;
+    e.preventDefault();
+}
+
 // Creates instance of Game class
 function Game() {
 	// config stuff
